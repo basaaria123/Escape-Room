@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+
+# Keep the old file URL working
+[[redirects]]
+  from = "/The%20Last%20Experiment.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/The Last Experiment.html"
+  to = "/"
+  status = 301
